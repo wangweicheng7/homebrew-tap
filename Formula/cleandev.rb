@@ -6,7 +6,7 @@ class Cleandev < Formula
   # Current default: build from GitHub main tarball.
   # For releases, update url/sha256/version to the corresponding tag tarball.
   url "https://github.com/wangweicheng7/cleandev-cli/archive/refs/heads/main.tar.gz"
-  sha256 "59223bbf969eb095d800e6eac7bef524088b9aae40b6053824af689ce7a4d3ce"
+  sha256 "7cbafb506cdc061331ea3dd30300a494a4d6a956617d076ce65a317c74d3dae9"
 
   depends_on "go" => :build
 
