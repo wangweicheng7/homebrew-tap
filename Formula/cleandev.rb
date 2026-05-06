@@ -1,13 +1,10 @@
 class Cleandev < Formula
   desc "macOS developer cleanup CLI (safe-first)"
   homepage "https://github.com/wangweicheng7/cleandev-cli"
-  version "0.0.0"
-
+  version "v0.1.0"
   # Current default: build from GitHub main tarball.
   # For releases, update url/sha256/version to the corresponding tag tarball.
-  url "https://github.com/wangweicheng7/cleandev-cli/archive/refs/heads/main.tar.gz"
-  sha256 "7cbafb506cdc061331ea3dd30300a494a4d6a956617d076ce65a317c74d3dae9"
-
+  url "https://github.com/wangweicheng7/cleandev-cli/archive/refs/tags/v0.1.0.tar.gz"  sha256 "12668827a2ccb9fdb2c05087588b78133c252c6e14bb827ec1af57c8f5e211ce"
   depends_on "go" => :build
 
   def install
