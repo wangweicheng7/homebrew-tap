@@ -1,8 +1,8 @@
-class Cleandev < Formula
+class CleandevCli < Formula
   desc "macOS developer cleanup CLI (safe-first)"
   homepage "https://github.com/wangweicheng7/cleandev-cli"
   version "v0.1.0"
-  # Current default: build from GitHub main tarball.
+
   # For releases, update url/sha256/version to the corresponding tag tarball.
   url "https://github.com/wangweicheng7/cleandev-cli/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "12668827a2ccb9fdb2c05087588b78133c252c6e14bb827ec1af57c8f5e211ce"
