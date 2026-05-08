@@ -1,15 +1,15 @@
 class DevcleanCli < Formula
   desc "macOS developer cleanup CLI (safe-first)"
   homepage "https://github.com/wangweicheng7/devclean-cli"
-  version "0.2.8"
+  version "0.2.9"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/wangweicheng7/devclean-cli/releases/download/v0.2.8/devclean_0.2.8_darwin_arm64.tar.gz"
-      sha256 "2e7ec08ae52e38fd8583c709c1e828517d78c3a6f7b3699c57d80bcb513877e5"
+      url "https://github.com/wangweicheng7/devclean-cli/releases/download/v0.2.9/devclean_0.2.9_darwin_arm64.tar.gz"
+      sha256 "88fd414134baf242b1c86e58382dd50396a71d260cfc4f931bce42212f2e66e2"
     else
-      url "https://github.com/wangweicheng7/devclean-cli/releases/download/v0.2.8/devclean_0.2.8_darwin_amd64.tar.gz"
-      sha256 "f2bae7ba7562b5df44d8b2716e58526fa98727f2eb379919fec8ce6d100c0ab9"
+      url "https://github.com/wangweicheng7/devclean-cli/releases/download/v0.2.9/devclean_0.2.9_darwin_amd64.tar.gz"
+      sha256 "6ad07f14033787c507df1e3d7a240d2cae4ddb0090aa2c83d557f3f68c8b8d7b"
     end
   end
 
